@@ -38,6 +38,14 @@ dtoverlay=ramoops
 enable_uart=1
 dtoverlay=miniuart-bt
 
+# Add hifiberry dac 
+dtoverlay=hifiberry-dac
+# GPIO for hifiberry-dac
+gpio=25=op,dh
+
+# Disable onboard audio 
+dtparam=audio=off
+
 # The active LED is active low instead of active high like other Raspberry Pis
 dtparam=act_led_activelow=on
 
