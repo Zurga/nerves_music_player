@@ -1,10 +1,11 @@
-# Raspberry Pi Model Zero
+# Raspberry Pi Model Zero with Pimoroni Pirate Audio HAT, WIP
 
 [![CircleCI](https://circleci.com/gh/nerves-project/nerves_system_rpi0.svg?style=svg)](https://circleci.com/gh/nerves-project/nerves_system_rpi0)
 [![Hex version](https://img.shields.io/hexpm/v/nerves_system_rpi0.svg "Hex version")](https://hex.pm/packages/nerves_system_rpi0)
 
 This is the base Nerves System configuration for the Raspberry Pi Zero and
-Raspberry Pi Zero W.
+Raspberry Pi Zero W that support the Pimoroni Pirate Audio HAT. Included is a 
+separate build-config that enables support for the st7789 display and the hifiberry dac.
 
 If you are *not* interested in [Gadget Mode](http://www.linux-usb.org/gadget/)
 then check out
