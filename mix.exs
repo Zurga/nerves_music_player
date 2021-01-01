@@ -2,7 +2,7 @@ defmodule NervesSystemRpi0.MixProject do
   use Mix.Project
 
   @github_organization "Zurga"
-  @app :nerves_music_player
+  @app :pimoroni_pirate_audio
   @source_url "https://github.com/#{@github_organization}/#{@app}"
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
